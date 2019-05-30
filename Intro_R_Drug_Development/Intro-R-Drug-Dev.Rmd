@@ -7,7 +7,6 @@ output:
     css: shiny-slides.css
     logo: images/shiny-logo.png
     self_contained: no
-    incremental: true
 runtime: shiny
 ---
 
@@ -131,7 +130,7 @@ a {
  - B2S Life Sciences
  - Book Note - Statistical Methods for Immunogenicity Assessment
  
-## Freedom to Build...
+## Freedom to Build... 
 
 - “This is your world...You’re the creator...Find freedom on this canvas...Believe, that you can do it, ‘Cuz you can do it. You can do it. Bob Ross"
 - The Karate Kid
@@ -237,7 +236,7 @@ a {
 </div>
 
 
-## Remember dplyr single table verbs
+## Remember dplyr single table verbs 
 
 - filter() extract cases
 - arrange() reorder cases
@@ -246,7 +245,7 @@ a {
 - mutate() create new variables
 - summarise() summarise variables / create cases
 
-## Remember tidyr single table verbs
+## Remember tidyr single table verbs 
 
 - spread() move values into column names
 - gather() move column names into values
@@ -579,7 +578,7 @@ geom_point(mapping = aes(x = wind, y = pressure))
  - Great for exploratory data analysis, visualizations & dashboards
  - Utilize existing R code
  
-## Using Shiny - How to Build a shiny App & Installation & Structure
+## Using Shiny - How to Build a shiny App & Installation & Structure 
  - A shiny app consists of two parts: a user interface (UI) and a server
  - Install Package - Shiny - install.packages("shiny")
  - Load Library - Shiny - library(shiny)
@@ -604,7 +603,7 @@ geom_point(mapping = aes(x = wind, y = pressure))
 - Name it Statshiny
 - Review Code
 
-## Intro Process
+## Intro Process 
  - http://shiny.rstudio.com/gallery/
  - ToothGrowth
  - http://shiny.rstudio.com/gallery/basic-datatable.html
@@ -668,7 +667,7 @@ function(input, output) {
 }
 ```
 
-## Your Turn Shiny Development Example - 1_Shiny_ToothGrowth_Basic
+## Your Turn Shiny Development Example - 1_Shiny_ToothGrowth_Basic 
 
 - Go [here](http://shiny.rstudio.com/gallery/basic-datatable.html)
 - Create a new multi file shiny app in the IDE by going to 'File' and select 'New File' and select 'Shiny Web App...' and create a new multiple file app and title it 'Statshiny' (or use the one you already created)
@@ -809,7 +808,7 @@ shinyApp(ui, server)
 
 # Deploy
 
-## So where can I deploy my Shiny app?
+## So where can I deploy my Shiny app? 
 - shinyapps.io
 - Shiny Server
 - RStudio Connect beta.rstudioconnect.com
@@ -962,7 +961,7 @@ survival analysis in R](http://rpubs.com/alecri/258589)
  </div>
 </div>
 
-## What can I do with RMD?
+## What can I do with RMD? 
 
 - Write a book http://adv-r.had.co.nz/
 - Write a blog https://rviews.rstudio.com
@@ -986,7 +985,7 @@ survival analysis in R](http://rpubs.com/alecri/258589)
  - Utilize Chunk Options - echo=FALSE, results="hide", include=FALSE, warning=FALSE & message=FALSE 
  - Global chunk options
  
-## Example R Markdown Doc -- `Example.RMD`
+## Example R Markdown Doc -- `Example.RMD` 
 
 - Create a new R Markdown document in the IDE by going to 'File' and select 'New File' and select 'R Markdown...' and create a new document and leave output as HTML
 <div class="columns-4">![Rmarkdown2](Rmarkdown2.png)</a> </div>
